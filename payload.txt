@@ -1,0 +1,6 @@
+DEFAULT_DELAY 500
+REM Open Notepad on Windows and type "Hello, world!"
+GUI r
+STRING notepad
+ENTER
+STRING Hello, world!
