@@ -10,4 +10,4 @@ Run Ducky Scripts on a Raspberry Pi Pico.
 5. Extract the ZIP-folder and navigate to the lib folder. Copy `adafruit_hid` to the lib folder on the Raspberry Pi Pico.
 6. Next, download this Github repository as a ZIP-folder, extract it and copy the `main.py` file to the root folder of your Raspberry Pi Pico.
 7. Find a Ducky Script and save it as `payload.txt` on the Raspberry Pi Pico.
-8. To execute a Ducky Script, plug the Raspberry Pi Pico in a USB port.
+8. To execute a Ducky Script, plug the Raspberry Pi Pico in a USB port. Be careful, if the Raspberry Pi Pico is not in setup mode, the device will reboot and after one second the Ducky Script will be executed.
